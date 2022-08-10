@@ -1,5 +1,5 @@
 @import 'colors';
-@import'animate';
+@import 'animate';
 
 *,
 *::before,
@@ -69,7 +69,7 @@ header {
 	.hero-image {
 		position: relative;
 		height: 100vh;
-		background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/img/hero-bg-small.jpg);
+		background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(./img/hero-bg-small.jpg);
 		background-position: center;
 		background-repeat: no-repeat;
 		background-size: cover;
@@ -120,8 +120,6 @@ header {
 	.aboutus-card-text {
 		font-size: 14px;
 	}
-
-
 }
 
 .aboutus-hover:hover {
@@ -130,7 +128,7 @@ header {
 
 .aboutus-hero {
 	position: relative;
-	background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/img/hero-bg2-small.jpg);
+	background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(./img/hero-bg2-small.jpg);
 	background-position: center;
 	background-size: cover;
 	color: $white;
@@ -200,7 +198,7 @@ header {
 }
 
 .team {
-	background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/img/job-g2e19d0ead_1920.jpg);
+	background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(./img/job-g2e19d0ead_1920.jpg);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -233,56 +231,55 @@ header {
 	}
 }
 
-.achievements{
-	i{
+.achievements {
+	i {
 		padding: 0;
 		font-size: 48px;
-		color:$white;
+		color: $white;
 		text-shadow: 0 0 5px black;
 	}
-	.achievements-list{
+	.achievements-list {
 		padding: 24px 0;
 	}
-	.achievement-number{
+	.achievement-number {
 		padding-top: 20px;
 		font-size: 22px;
 	}
-	.achievement-text{
+	.achievement-text {
 		font-size: 13px;
 		text-transform: uppercase;
 	}
 }
 
-.contact{
-	background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/img/skyline-gde31fde38_1920.jpg);
+.contact {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(./img/skyline-gde31fde38_1920.jpg);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
-	h2{
+	h2 {
 		color: $bg-color;
 	}
 
-	.contact-us{
+	.contact-us {
 		color: $bg-color;
-		.contact-item{
+		.contact-item {
 			margin-bottom: 15px;
 			letter-spacing: 2px;
 		}
-		h3{
+		h3 {
 			text-transform: uppercase;
 		}
-		a{
+		a {
 			padding: 0 10px;
 			font-size: 26px;
 			color: $bg-color;
 			transition: font-size 100ms;
 		}
-		a:hover{
+		a:hover {
 			font-size: 30px;
 		}
 	}
-
 }
 
 @media screen and (min-width: 992px) {
@@ -292,11 +289,11 @@ header {
 
 	header {
 		.hero-image {
-			background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/img/hero-bg-big.jpg);
+			background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(./img/hero-bg-big.jpg);
 		}
 	}
 	.hero-image-main {
-		background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/img/hero-bg2-big.jpg);
+		background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(./img/hero-bg2-big.jpg);
 	}
 
 	.prices {
