@@ -69,7 +69,7 @@ header {
 	.hero-image {
 		position: relative;
 		height: 100vh;
-		background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/img/hero-bg-small.jpg);
+		background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/hero-bg-small.jpg);
 		background-position: center;
 		background-repeat: no-repeat;
 		background-size: cover;
@@ -128,7 +128,7 @@ header {
 
 .aboutus-hero {
 	position: relative;
-	background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/img/hero-bg2-small.jpg);
+	background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/hero-bg2-small.jpg);
 	background-position: center;
 	background-size: cover;
 	color: $white;
@@ -198,7 +198,7 @@ header {
 }
 
 .team {
-	background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/img/job-g2e19d0ead_1920.jpg);
+	background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/job-g2e19d0ead_1920.jpg);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -252,7 +252,7 @@ header {
 }
 
 .contact {
-	background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/img/skyline-gde31fde38_1920.jpg);
+	background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/skyline-gde31fde38_1920.jpg);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -289,11 +289,11 @@ header {
 
 	header {
 		.hero-image {
-			background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/img/hero-bg-big.jpg);
+			background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/hero-bg-big.jpg);
 		}
 	}
 	.hero-image-main {
-		background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/img/hero-bg2-big.jpg);
+		background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/hero-bg2-big.jpg);
 	}
 
 	.prices {
