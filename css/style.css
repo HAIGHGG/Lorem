@@ -216,8 +216,8 @@ header .btn-outline-light {
 
 .aboutus-hero {
   position: relative;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url(../img/hero-bg2-small.jpg);
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/hero-bg2-small.jpg);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.904)), to(rgba(0, 0, 0, 0.904))), url(../img/hero-bg2-small.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.904), rgba(0, 0, 0, 0.904)), url(../img/hero-bg2-small.jpg);
   background-position: center;
   background-size: cover;
   color: white;
